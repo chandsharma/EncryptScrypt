@@ -1,0 +1,24 @@
+# configuration for EncryptScrypt
+
+path : ~/projects/project1/main.py
+
+# files to ignore.
+ignoreFiles : 
+        #file that need not be encrypted
+        files: []
+        type:
+          - ignoreDoubleUnderScore : yes
+          - ignoreSingleUnderScore   : yes
+
+#files inside these folders will not be encrypted
+ignoreFolders : []
+
+# python version to encrypt file in.
+# (make sure to mention correct version. this scrypt will not convert python2 to python3 and vice-versa)
+pythonVersion : 3.8
+
+# makes pytransform.so file instead of _pytransform.so
+# some applications discards third party module. 
+# if this is the case with your encrypted scrypt set this field "yes"
+makeNonModular : no
+
