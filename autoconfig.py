@@ -77,6 +77,7 @@ if __name__ == "__main__":
                     for file in py_files:
                         print(file)
                 config["ignoreFiles"] = set_files_to_ignore(py_files)
+                config["isAutoConfigured"] = True
                 write_config(config_file,config)
             else:
                 print("Specified path does not contain any python file. Aborting!")

@@ -4,6 +4,7 @@ ignoreFiles:
 - /home/chand/techneith/projects/bi-sql-connector/models/__init__.py
 - /home/chand/techneith/projects/bi-sql-connector/controllers/__init__.py
 ignoreFolders: []
+isAutoConfigured: true
 makeNonModular: false
 path: /home/chand/techneith/projects/bi-sql-connector
 pythonVersion: 3.8
